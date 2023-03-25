@@ -1,0 +1,30 @@
+{
+  "name": "malavan_srikumar_leetcode",
+  "version": "1.0.0",
+  "description": "Solutions to leetcode problems by Malavan Srikumar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "npx eslint",
+    "lint:fix": "npx eslint **/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maladeveloper/leetcode.git"
+  },
+  "author": "Malavan Srikumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maladeveloper/leetcode/issues"
+  },
+  "homepage": "https://github.com/maladeveloper/leetcode#readme",
+  "dependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
